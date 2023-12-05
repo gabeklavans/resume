@@ -91,5 +91,5 @@
             "upgradePackages": true
         }
     },
-    "postStartCommand": "tlmgr install sourcesanspro xkeyval moresize anyfontsize csquotes xcolor enumitem titlesec standalone filehook svn-prov blindtext ly1 && texhash"
+    "postStartCommand": "tlmgr update --self && tlmgr install sourcesanspro xkeyval moresize anyfontsize csquotes xcolor enumitem titlesec standalone filehook svn-prov blindtext ly1 && texhash"
 }
